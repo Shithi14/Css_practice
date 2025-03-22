@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <style type="text/css">
+       /* here it just for all h1 and p tag */
+       h1{
+            background-color: rgb(119, 185, 243);
+            text-align: center;
+            font-size: 30;
+            color: rgb(90, 7, 103);
+        }
+        p{
+            color: rgb(250, 85, 30);
+            font-size: 20px;
+            font-style: italic;
+        }
+        /* Class (.) → Used for multiple elements*/
+        .mutiple-style{
+            color: rgb(44, 165, 77);
+            font-size: 23;
+            text-align: center;
+
+        }
+        /* ID (#) → Used for a single unique element.
+        when you need to style only one specific element.
+        */
+        #unique-style{
+            text-align: center;
+            color: blue;
+            background-color: aliceblue;
+        }
+
+    </style>
+  
+</head>
+<body>
+
+    <h1>Welcome to Internal CSS</h1>
+    <h1>Hi</h1>
+
+    <h2 class="mutiple-style">Using class in internal css</h2>
+    
+    <h3 id="unique-style">Using id in css</h3>
+    
+    <p>his is an example paragraph styled using Internal CSS.The text is green, aligned properly, and has a light yellow background with a blue dashed border.</p>
+    
+    <p class="mutiple-style">This is a highlighted paragraph using the "highlight" class</p>
+    
+</body>
+</html>
