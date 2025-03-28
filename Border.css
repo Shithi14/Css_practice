@@ -1,0 +1,46 @@
+.b1{
+    /* border: width,border type,color; */
+    border:5px,solid,rgb(209, 15, 170);
+}
+.b2{
+    border: 3px,dotted,rgb(76, 13, 223);
+}
+.b3{
+    border:3px,dashed,rgb(21, 1, 12);
+}
+.b4{
+    border:7px,double,rgb(221, 25, 74);
+}
+.b5{
+    border:10px,groove,red;
+}
+.b6{
+    border:10px,ridge,red;
+}
+.b7{
+    border:10px,inset,green;
+}
+.b8{
+    border:10px,outset,green;
+}
+/* all three are saparetly used */
+
+.b9{
+    border-width: 15px;
+    border-radius:10px ;
+    border-style:groove;
+    border-color: rgb(89, 0, 242);
+}
+.b10{
+    
+    height:500px;
+    width: 500px;
+    border-radius:350px;
+    background-color: rgb(255, 34, 10);
+    border: 30px;
+    border-style:solid;
+    border-color: rgb(6, 72, 7);
+}
+body{
+    background:linear-gradient(to left,rgb(203, 252, 253),rgb(242, 185, 225));
+}
