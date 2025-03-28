@@ -1,0 +1,23 @@
+body {
+    /* Ensure the image path is correct */
+    background-image: url("/Assets/cat1 (1).jpeg"); 
+    
+    /* Prevent image repetition */
+    background-repeat: no-repeat;  
+
+    /* Center the image */
+    background-position: center center; 
+
+
+    /* Ensure it covers the full viewport */
+    height: 100vh; 
+
+    /* Make the image cover the whole screen */
+    background-size: cover; 
+
+    /* Linear gradient background example */
+    /* background: linear-gradient(to left, green, red, blue, violet, orange, black, white, yellow); */
+
+    /* Radial gradient background example */
+    /* background: radial-gradient(circle, green, red, blue, violet, orange, black, white, yellow); */
+}
