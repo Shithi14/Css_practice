@@ -1,0 +1,13 @@
+.m1{
+    width: 250px;
+    height: 200px;
+    background-color: blue;
+    
+    padding:20px;
+    
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
