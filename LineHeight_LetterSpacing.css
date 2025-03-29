@@ -1,0 +1,11 @@
+
+
+/*  Setting line height and letter spacing for a paragraph */
+
+.class1{
+    font-size: 20px;
+    /* CONTROLS THE SPACE BETWEEN LINES */
+    line-height: 1.6;
+    letter-spacing: 2px;
+
+}
