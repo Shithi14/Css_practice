@@ -1,0 +1,13 @@
+
+
+/*  Setting line height and letter spacing for a paragraph */
+
+.class1{
+    font-style: oblique;
+    font-size: 20px;
+    /* CONTROLS THE SPACE BETWEEN LINES */
+    line-height: 1.6;
+    letter-spacing: 2px;
+    background-color: rgb(210, 174, 85);
+    
+}
