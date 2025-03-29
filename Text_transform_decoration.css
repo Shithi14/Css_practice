@@ -1,0 +1,16 @@
+/* Text Treanformation */
+.class1{
+    text-transform: uppercase;
+
+}
+.class2{
+    text-transform: capitalize;
+}
+
+/* Text decoration */
+.class3{
+    text-decoration:underline;
+}
+.class4{
+    text-decoration: line-through;
+}
