@@ -1,0 +1,27 @@
+/* (class3)The @import rule must be placed at the very top of your CSS file before any other rules. */
+@import url('https://fonts.googleapis.com/css2?family=Tektur:wght@400..900&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+
+.class1{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight:500;
+    font-style: italic;
+
+}
+
+/* Google font with link(embed)*/
+
+.class2{
+
+
+
+    font-family: "Winky Sans", sans-serif;
+    font-size: 25px;
+    
+  }
+/* Google font with import(embed) */
+
+  
+.class3{
+  font-family:"Tektur";
+}
