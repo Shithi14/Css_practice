@@ -1,0 +1,17 @@
+.class1{
+    background-color: rgb(30, 96, 203);
+    /* moves the div to left */
+    float: left;
+}
+.class2{
+    background-color: rgb(233, 37, 11);
+    float: left;
+}
+.class3{
+    background-color: rgb(46, 190, 10);
+}
+.class4{
+    /* Clears floating element
+     Ensures that .class3 appears below floated elements*/
+    clear: both;
+}
