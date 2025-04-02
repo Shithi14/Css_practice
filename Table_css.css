@@ -1,0 +1,30 @@
+table{
+    height: 500px;
+    width: 700px;
+    text-align: center;
+    border-collapse: collapse;
+/* border-spacing works only when border-collapse is not set to collapse */
+    border-spacing: 5px;
+    
+    margin: auto;
+    background-color: rgb(247, 247, 174);
+
+}
+
+th,td{
+   
+    padding:20px;
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    border:5px solid black;
+   
+}
+/* It's apply all even row */
+tr:nth-child(even){
+    background-color: rgb(189, 88, 160);
+}
+
+tr:hover{
+    background-color: rgb(238, 251, 252);
+}
