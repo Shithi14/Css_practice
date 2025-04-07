@@ -1,0 +1,25 @@
+h1{
+    background-color: rgb(235, 223, 91);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 15px solid rgb(228, 18, 154);
+    border-radius: 10px;
+    width: 230px;
+}
+p{
+    background-color: rgb(124, 205, 240);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-top: 5px blue solid;
+    border-right: 10px white dotted;
+    border-bottom: 5px blue solid;
+    border-left: 10px rgb(252, 246, 247) dotted;
+    width: 230px;
+}
+h3{
+    background-color: rgb(246, 212, 200);
+    padding: 15px;
+    border: 15px groove green;
+    margin-top: 15px;
+    width: 230px;
+}
