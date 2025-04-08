@@ -1,0 +1,22 @@
+
+.descendent p{
+    color: rgb(229, 37, 12);
+    font-size: 25px;
+    background-color: rgb(226, 226, 76);
+}
+
+.child > p {
+    color: blue;
+    background-color: rgb(130, 234, 109);
+}
+
+.next h1 + p {
+    color: rgb(228, 87, 21);
+    background-color: rgb(248, 179, 246);
+}
+.sibling h1~p{
+    color: rgb(19, 6, 199);
+    background-color: rgb(219, 162, 76);
+}
+
+
