@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Combinators.css">
+</head>
+<body>
+
+    <!-- Descendent -->
+    <div class="descendent">
+        <h1>Descendant(space)</h1>
+        <p>Descendant combinator (space).The descendant combinator matches all elements that are descendants of a specified element. </p>
+        <section>
+            <p>Paragraph inside a section (nested)</p>
+        </section>
+    
+    </div>
+    <br><br>
+
+
+
+    <!-- child Combinators  -->
+    <div class="child">
+        <h1>Child Combinator (>)</h1>
+        <p>I am direct child.The Child Combinator (>) selects elements that are direct children of a specified element — not nested deeper.</p>
+        <section>
+            <p>I'm nested deeper</p>
+        </section>
+    
+    </div>
+    <br>
+    <br>
+
+
+    <!-- Next Sibling Combinator (+) -->
+    <div class="next">
+    
+        <h1>Next Sibling Combinator (+)</h1>
+        <p>Only the first (immediately after h1) turns this change.</p>
+        <p>The second (p) is not affected.</p>
+    </div>
+    <br><br>
+
+
+   <!-- Subsequent-sibling Combinator (~) -->
+<div class="sibling">
+   <h1>Subsequent-sibling combinator (~)</h1>
+   <p>The Subsequent-sibling combinator (~) selects all siblings that come after a specified element — not just the immediate next one.</p>
+   <p>~ adds background to all cards after the first one.</p>
+    <p>	Multiple siblings below</p>
+</div>
+<br><br>
+    
+</body>
+</html>
