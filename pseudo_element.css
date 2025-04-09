@@ -1,0 +1,36 @@
+.firstletter::first-letter{
+    font-size: 50px;
+    color: brown;
+}
+.firstline::first-line{
+    background-color: rgb(244, 244, 105);
+}
+.Before::before{
+    content: "🌟";
+    width: 25px;
+    padding: 5px;
+    height: 25px;
+    display: inline-block;
+    background-color: rgb(48, 16, 166);
+    margin-right: 5px;
+
+}
+.After::after{
+    content: "🥰";
+    
+}
+.Selection::selection{
+    color: rgb(14, 17, 1);
+    background-color: rgb(64, 173, 34);
+
+}
+input::placeholder{
+    color: brown;
+    background-color: rgb(226, 224, 240);
+    border: 5px black solid;
+    padding: 20px;
+}
+label{
+    margin-right: 10px;
+
+}
