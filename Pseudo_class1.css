@@ -1,0 +1,60 @@
+input{
+    padding: 5px;
+}
+
+
+.hoverclass:hover{
+    color: rgb(68, 223, 30);
+    background-color: rgb(245, 238, 204);
+    border: 2px black solid;
+    
+    font-weight: bold;
+
+
+}
+
+
+.focusname:focus{
+    color: brown;
+    font-weight: bold;
+    font-size: 20px;
+    border: 5px black solid;
+    background-color: rgb(180, 180, 246);
+
+}
+
+.linkname:link{
+    color: rgba(244, 13, 13, 0.733);
+    background-color: rgb(64, 205, 54);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+
+}
+
+/* Table */
+caption{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom:  10px;
+    
+   
+}
+
+table{
+    padding-top: 20px;
+    border: 3px black solid;
+    border-collapse: collapse;
+}
+th,td{
+    border: 3px black solid;
+    padding: 15px;
+    text-align: center;
+    width: 90px;
+   
+}
+tr:nth-child(even){
+    background-color: rgb(207, 109, 205);
+}
+
+
