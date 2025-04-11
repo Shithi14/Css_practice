@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Background_image.css">
+
+</head>
+<body>
+    <p>sing background images? There’s an easy, automatic way to resize, crop, and make them responsive
+
+        Cloudinary is a cloud-based image management platform with a generous free plan. Cloudinary can:
+        
+         
+        
+        Resize your images on the server side so they load faster for users
+        Automatically crop images with AI-based object and face recognition
+        Expand images and fill in missing details with generative AI
+        Automatically adapt images to responsive layouts.The background-image property in CSS allows you to set an image as the background for any HTML element. This property can add a single image or multiple images or even create an image gradient as the background.
+
+        In CSS, you can control the position of the background image, whether or not the image should be repeated, the scrolling behavior of the image, and much more. Let’s look deeper into the syntax to understand how you can manipulate the CSS background image property to our advantage.You can also control whether a background image scrolls with the rest of the page or is fixed with the background-attachment property. For instance, background-attachment: fixed; will create a “parallax” effect where the background image does not move with the rest of the page.
+
+        Learn more in our guide to stretching background images
+        
+        Background Gradients
+        Another feature of CSS background images is the ability to create gradients, a smooth transition between two or more colors. CSS offers three types:
+        
+        Linear – Colors shift from one to another based on the direction (up, down, left, right, or diagonally).
+        Radial – A central point is defined, where the colors will shift outwards from that point.
+        Conic – They still share a central point, but colors are rotated around that point instead of shifting outwards.
+        body {
+          background-image: linear-gradient(red, yellow);
+        }
+        In this example, our background image will be a gradient transitioning from red to yellow. You can also create radial gradients with the radial-gradient() function or combine multiple gradients for more complex effects.
+        
+        Using Transparency
+        The opacity of a background image can be controlled with the background-color property in conjunction with RGBA color values. An RGBA color value includes the red, green, and blue components and an alpha component representing transparency.
+        
+        body {
+          background-image: url('image.jpg');
+          background-color: rgba(255, 255, 255, 0.5);
+        }
+        In the example above, a white (255, 255, 255) semi-transparent (0.5) background color is applied on top of the background image. This can be useful when you want to overlay text or other content on top of a background image and ensure it’s still readable.
+        
+        3 Tips for Automating Background Images
+        When using background images, it can be difficult to manually rescale and crop them, especially in a responsive design. With Cloudinary, you can completely automate the process and even expand images by filling in the missing details with generative AI.
+        
+        Cloudinary is a cloud-based media management service with a generous free plan, simplifying working with images and videos. It allows users to perform various operations on their media files, including resizing, cropping, and optimization, through a simple URL-based system or via SDKs for all popular programming languages.
+        
+        URL parameters are the key-value pairs included in the URL that instruct Cloudinary on how to manipulate and deliver the requested image or video. Using these parameters, you can easily apply a wide range of transformations to your files without needing manual intervention or additional server-side processing.
+        
+        A major advantage of using Cloudinary for image resizing is that the service dynamically resizes images on the server side before they are delivered to users, solving the problems of CSS-based resizing.
+        
+        Let’s see how to effortlessly resize and rescale background images with Cloudinary. In order to try out the instructions below with your own photos, sign up for a free Cloudinary account and upload the image to Cloudinary.
+        
+        1. Limit Images to Specific Dimensions
+        To limit the size of an image to specific dimensions, we can change the crop value (c in URLs) to have a limit (c_limit).
+        
+        Below is an image that’sYou can also control whether a background image scrolls with the rest of the page or is fixed with the background-attachment property. For instance, background-attachment: fixed; will create a “parallax” effect where the background image does not move with the rest of the page.
+
+        Learn more in our guide to stretching background images
+        
+        Background Gradients
+        Another feature of CSS background images is the ability to create gradients, a smooth transition between two or more colors. CSS offers three types:
+        
+        Linear – Colors shift from one to another based on the direction (up, down, left, right, or diagonally).
+        Radial – A central point is defined, where the colors will shift outwards from that point.
+        Conic – They still share a central point, but colors are rotated around that point instead of shifting outwards.
+        body {
+          background-image: linear-gradient(red, yellow);
+        }
+        In this example, our background image will be a gradient transitioning from red to yellow. You can also create radial gradients with the radial-gradient() function or combine multiple gradients for more complex effects.
+        
+        Using Transparency
+        The opacity of a background image can be controlled with the background-color property in conjunction with RGBA color values. An RGBA color value includes the red, green, and blue components and an alpha component representing transparency.
+        
+        body {
+          background-image: url('image.jpg');
+          background-color: rgba(255, 255, 255, 0.5);
+        }
+        In the example above, a white (255, 255, 255) semi-transparent (0.5) background color is applied on top of the background image. This can be useful when you want to overlay text or other content on top of a background image and ensure it’s still readable.
+        
+        3 Tips for Automating Background Images
+        When using background images, it can be difficult to manually rescale and crop them, especially in a responsive design. With Cloudinary, you can completely automate the process and even expand images by filling in the missing details with generative AI.
+        
+        Cloudinary is a cloud-based media management service with a generous free plan, simplifying working with images and videos. It allows users to perform various operations on their media files, including resizing, cropping, and optimization, through a simple URL-based system or via SDKs for all popular programming languages.
+        
+        URL parameters are the key-value pairs included in the URL that instruct Cloudinary on how to manipulate and deliver the requested image or video. Using these parameters, you can easily apply a wide range of transformations to your files without needing manual intervention or additional server-side processing.
+        
+        A major advantage of using Cloudinary for image resizing is that the service dynamically resizes images on the server side before they are delivered to users, solving the problems of CSS-based resizing.
+        
+        Let’s see how to effortlessly resize and rescale background images with Cloudinary. In order to try out the instructions below with your own photos, sign up for a free Cloudinary account and upload the image to Cloudinary.
+        
+        1. Limit Images to Specific Dimensions
+        To limit the size of an image to specific dimensions, we can change the crop value (c in URLs) to have a limit (c_limit).
+        
+        Below is an image that’s been resized from 850 x 565 px. to 70 x 70 px. with the limit option. Due to the preserved aspect ratio, this display is 70 x 47 px.
+        
+        https://res.cloudinary.com/demo/image/upload/w_70,h_70,c_limit/cashew_chicken.jpg
+        css background image
+        
+        Learn more in the Cloudinary Cookbook
+        
+        2. Crop Images With Auto Gravity
+        To focus on specific details—faces, objects, color contrasts—while resizing images, we can crop the images with Cloudinary’s intelligent auto-gravity features. The parameter to set is gravity (g in URLs), which offers an auto value (g_auto) that intelligently crops according to your image’s content.
+        
+        Cloudinary automatically crops images with content-aware, AI-based features by selecting faces, individual features, or areas of interest. Look at how Cloudinary uses the g_auto setting to crop the most interesting area, as determined by AI: been resized from 850 x 565 px. to 70 x 70 px. with the limit option. Due to the preserved aspect ratio, this display is 70 x 47 px.
+        
+        https://res.cloudinary.com/demo/image/upload/w_70,h_70,c_limit/cashew_chicken.jpg
+        css background image
+        
+        Learn more in the Cloudinary Cookbook
+        
+        2. Crop Images With Auto Gravity
+        To focus on specific details—faces, objects, color contrasts—while resizing images, we can crop the images with Cloudinary’s intelligent auto-gravity features. The parameter to set is gravity (g in URLs), which offers an auto value (g_auto) that intelligently crops according to your image’s content.
+        
+        Cloudinary automatically crops images with content-aware, AI-based features by selecting faces, individual features, or areas of interest. Look at how Cloudinary uses the g_auto setting to crop the most interesting area, as determined by AI:</p>
+    
+</body>
+</html>
