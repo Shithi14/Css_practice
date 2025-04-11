@@ -1,0 +1,23 @@
+/* Here apply the latest tag of h1 */
+
+h1{
+    background-color: antiquewhite;
+}
+h1{
+    background-color: rgb(106, 106, 233);
+}
+
+/* Css sequence  */
+.c1 {
+    background-color: rgb(226, 54, 28) ;
+
+}
+.c2{
+    background-color: rgb(65, 165, 42);
+}
+#id1{
+    background-color: rgb(212, 244, 85);
+}
+.c3{
+    background-color: blueviolet !important;
+}
