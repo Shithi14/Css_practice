@@ -1,0 +1,23 @@
+*{
+    margin: auto;
+}
+body{
+    display: flex;
+}
+.gradient{
+    margin-top: 50px;
+    height: 550px;
+    width: 600px;
+    background-image: linear-gradient(to left,red,green,blue,brown,yellow,violet);
+   
+}
+
+
+.gradient1{
+    margin-top: 50px;
+    height: 550px;
+    width: 600px;
+    background-image:radial-gradient(circle,red,green,yellow,red,yellow,orange,blue ,rgb(80, 4, 80));
+  ;
+
+}
