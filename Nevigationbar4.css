@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(250, 213, 246);
+}
+.nevclass{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin:20px;
+    margin-left:33% ;
+    background-color: rgb(115, 13, 96);
+    padding: 20px;
+    height: 70px;
+    width: 500px;
+    
+    font-size: 25px;
+    font-weight: bold;
+   
+
+}
+.nevclass li{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.nevclass li a{
+    text-decoration: none;
+    color: rgb(6, 50, 182);
+  
+
+}
+.nevclass li a:hover{
+    background-color: rgb(211, 193, 33);
+    text-decoration: overline;
+
+}
