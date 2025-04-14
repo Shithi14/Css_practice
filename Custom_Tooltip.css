@@ -1,0 +1,38 @@
+.all{
+
+}
+
+.link{
+    
+    text-decoration: none;
+    
+    font-weight: bolder;
+    background-color: rgb(202, 244, 130);
+    position: relative;
+    font-size: 20px;
+
+}
+.link-text{
+    visibility: hidden; 
+    height: 30px;
+    width: 150px;
+    color: brown;
+    font-weight: bold;
+    background-color: rgb(251, 201, 136);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.text{
+    
+    height: 230px;
+    width: 250px;
+    background-color: rgb(239, 113, 113);
+    overflow: scroll;
+
+}
+.link:hover .link-text{
+    visibility: visible;
+}
