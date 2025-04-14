@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Overflow_layout.css">
+</head>
+
+<body>
+    <h2>Visible Overflow :</h2>
+    <div class="Visible">
+        <p>Default behavior: The content is not clipped, and it will display outside the container.
+
+            Use cases:
+            
+            When you want the overflowing content to be fully visible.
+            
+            For simple layouts where clipping isn’t an issue.
+            
+            Considerations:
+            
+            Can lead to design inconsistencies if elements break out of their designated areas.
+            
+            Might cause unwanted overlaps in more complex layouts.</p>
+    </div><br><br><p></p><br><br>
+
+    <h2>Hidden Overflow :</h2>
+    <div class="Hidden">
+        <p>When you want to restrict content visibility strictly within the boundaries.
+
+            Useful in fixed-size components like cards or modals.
+            
+            Considerations:
+            
+            It may hide essential content if not managed carefully.
+            
+            No scrollbars are provided, so users can’t access the clipped content.</p>
+    </div><br>
+    <h2>Scroll Overflow:</h2>
+    <div class="Scroll">
+        <p>What it does: Scrollbars are always provided (both horizontal and vertical) regardless of whether the content overflows.
+
+            Use cases:
+            
+            When you need to ensure that users are aware that more content exists.
+            
+            In scenarios where constant scrolling options are preferred, even if not needed immediately.
+            
+            Considerations:
+            
+            Can lead to an unnecessary visual clutter if the content does not always overflow.
+            
+            May not provide the best user experience if scrollbars appear when not needed.</p>
+    </div>
+    <br>
+    <h2>Auto Overflow :</h2>
+    <div class="Auto">
+        <p>Ideal for dynamic content sizes where overflow is uncertain.
+
+            Balances between hidden (which clips the content) and scroll (which always shows scrollbars).</p>
+    </div>
+    
+</body>
+</html>
