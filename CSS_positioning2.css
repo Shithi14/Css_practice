@@ -1,0 +1,91 @@
+
+
+.Static1{
+    width: 140px;
+    height: 160px;
+    background-color: blue;
+    border: 2px solid black;
+    position: static;
+    margin-bottom: 20px;
+}
+.Static2{
+    width: 140px;
+    height: 160px;
+    background-color: rgb(236, 52, 28);
+    border: 2px solid black;
+    position: static;
+}
+.Relative1{
+   
+    
+        width: 140px;
+        height: 160px;
+        background-color: rgb(24, 79, 8);
+        border: 2px solid rgb(15, 1, 11);
+        position: relative;
+        margin-bottom: 20px;
+    
+}
+.Relative2{
+    
+    width: 140px;
+    height: 160px;
+    background-color: rgb(85, 9, 81);
+    border: 2px solid rgb(15, 1, 11);
+    position: relative;
+    left: 30px;
+
+}
+
+.Absolute1{
+    
+    width: 440px;
+    height: 460px;
+    background-color: rgb(9, 12, 175);
+    border: 2px solid rgb(15, 1, 11);
+    position: relative;
+
+}
+.Absolute2{
+    
+    width: 280px;
+    height: 280px;
+    background-color: rgb(71, 186, 18);
+    border: 2px solid rgb(15, 1, 11);
+    position: absolute;
+    top: 90px;
+    left: 90px;
+   
+
+}
+.Absolute3
+{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(233, 35, 17);
+    border: 2px solid rgb(15, 1, 11);
+    position: absolute;
+    top: 60px;
+    left: 70px;
+
+}
+.Absolute4{
+    width: 80px;
+    height: 80px;
+    background-color: rgb(247, 231, 91);
+    border: 2px solid rgb(15, 1, 11);
+    position: absolute;
+    top: 40px;
+    left: 40px;
+
+}
+.Absolute5
+{
+    width: 45px;
+    height: 45px;
+    background-color: rgb(241, 236, 236);
+    border: 2px solid rgb(15, 1, 11);
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
