@@ -1,0 +1,20 @@
+h1,h3{
+    text-shadow: 5px 10px 5px rgb(22, 71, 219);
+    padding-bottom: 30px;
+}
+
+h2{
+
+}
+.box{
+    
+    height: 150px;
+    width: 350px;
+    text-align: justify;
+    margin: auto;
+    color:white;
+    padding: 10px;
+    font-weight: bold;
+    background-color: rgb(132, 13, 96);
+    box-shadow: 10px 25px 5px rgb(64, 41, 180);
+}
