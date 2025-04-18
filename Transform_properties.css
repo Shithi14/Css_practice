@@ -1,0 +1,23 @@
+.tra1{
+    height: 170px;
+    width: 190px;
+    background-color: rgb(11, 92, 20);
+    transform: translate(190px);
+    transform: scale(1.5);
+    margin: 150px;
+    /* transform: skew(20deg,10deg); */
+    transform: rotate(45deg);
+    border: 5px solid rgb(9, 1, 1);
+}
+.tra2{
+    height: 170px;
+    width: 190px;
+    background-color: rgb(26, 36, 219);
+    transform: translate(190px);
+    transform: scale(1.5);
+    margin: 150px;
+    transform: skew(20deg,10deg); 
+    border: 5px solid brown;
+}
+   
+}
