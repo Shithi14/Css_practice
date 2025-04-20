@@ -16,5 +16,30 @@ h2{
     padding: 10px;
     font-weight: bold;
     background-color: rgb(132, 13, 96);
-    box-shadow: 10px 25px 5px rgb(64, 41, 180);
+    box-shadow: 10px 25px 5px 30px rgb(64, 41, 180);
+}
+.box2{
+    margin-top: 250px;
+    height: 150px;
+    width: 250px;
+    margin-left: 170px;
+    background-color: rgb(229, 241, 59);
+    box-shadow: 0px 0px 60px 60px rgb(9, 36, 145);
+
+}
+.box3{
+    margin-top: 250px;
+    height: 150px;
+    width: 250px;
+    margin-left: 170px;
+    background-color: rgb(18, 158, 6);
+    margin-top: 250px;
+    height: 150px;
+    width: 250px;
+    margin-left: 170px;
+    background-color: rgb(78, 181, 37);
+    box-shadow: 0px 0px 60px 60px rgb(9, 36, 145);
+/* just look like the alter of border it is used */
+    box-shadow: 0px 0px 0px 15px rgb(9, 36, 145);
+
 }
